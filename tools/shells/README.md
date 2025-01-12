@@ -16,6 +16,9 @@ A shell is the program that runs inside the terminal emulator application that r
 > [!TIP]
 > Before getting started with customizing the `zsh` shell, I would recommend install [`brew`](https://brew.sh) if you are on a Mac. It is an easy way to install the plugins you will need. You can install [`brew`](https://brew.sh) by running the following command:
 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 One advantage that the `zsh` shell has over the `bash` shell is it is more customizable. There are numerous plugins that allow you to add functionality like auto-completion, auto-suggestions, and syntax highlighting. There are some plugin managers like [`oh-my-zsh`](https://ohmyz.sh) and [`zplug`](https://github.com/zplug/zplug) or you can create a `.zshrc` file and add the plugins you want to use.
 
