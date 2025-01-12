@@ -3,4 +3,4 @@ This directory contains information on software tools that I have found useful o
 
 ## Content
 - [Terminals](terminals/README.md)
-- [Text Editors](text-editors/)
+- [Shells](shells/README.md)

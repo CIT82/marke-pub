@@ -10,7 +10,7 @@ A shell is the program that runs inside the terminal emulator application that r
 
 ## Customizing the `zsh` Shell
 
->[!TIP]
+> [!TIP]
 > Before getting started with customizing the `zsh` shell, I would recommend install [`brew`](https://brew.sh) if you are on a Mac. It is an easy way to install the plugins you will need. You can install [`brew`](https://brew.sh) by running the following command:
 
 
@@ -21,7 +21,7 @@ I might be mistaken but if you are on a Mac, the `.zshrc` file might not exist. 
 ```bash
 ls -a ~ | grep .zshrc
 ```
-This command will list all files including dot files in your home directory represented by the tilde `~` and 'pipe' denoted by `|` the resulting output to the `grep` command. If the `.zshrc` file exists, you will see it outputed on the next line. If it does not exist, you will not see anything outputed.
+This command will list all files including dot files in your home directory represented by the tilde `~` and 'pipe' denoted by `|` the resulting output to the `grep` command. If the `.zshrc` file exists, you will see it outputted on the next line. If it does not exist, you will not see anything outputted.
 
 ### **Creating a `.zshrc` file**
 
@@ -49,7 +49,7 @@ You can create the `.zshrc` file several different ways I will cover a couple of
 > The `~/` in the above commands is only needed if you are not in your home directory. If you are in your home directory you can omit the `~/` and just use `.zshrc`. To check your current directory you can run `pwd`
 
 ### **Making changes to the `.zshrc` file**
-So you now have the `.zshrc` file already, but what can you do with it? Lets take a look at some thing you can do with the `.zshrc` file.
+So you now have the `.zshrc` file already, but what can you do with it? Let's take a look at something you can do with the `.zshrc` file.
 
 #### **Change the prompt**
 This is one thing that can be done in either `bash` or `zsh` shell. The prompt is the text that appears before the cursor in the terminal. It can be customized to show different information like the current directory, the time, the user, and the hostname. You can also change the color of the prompt. Here is an example of how you can change the prompt in the `.zshrc` file. One popular way of customizing the prompt is to use the `powerlevel10k` theme. But here we will look at how we can do it ourselves.
@@ -87,12 +87,12 @@ To give you an idea of what you can do with the prompt without using a theme, he
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [starship](https://starship.rs)
 
-Lets create a simple prompt that shows our username, the short hostname, and the current directory relative to the home directory. Add the following to the `.zshrc` file:
+Let's create a simple prompt that shows our username, the short hostname, and the current directory relative to the home directory. Add the following to the `.zshrc` file:
 ```bash
 PROMPT='%n@%m %~ %# '
 # break down of the prompt
 # %n - username
-# @ - notice the absence of % bedore the @ any character that is not a prompt escape sequence is displayed as is
+# @ - notice the absence of % before the @ any character that is not a prompt escape sequence is displayed as is
 # %m - short hostname
 # %~ - current directory relative to $HOME
 # %# - prompt symbol (# for root, $ for user)
@@ -105,7 +105,7 @@ source ~/.zshrc
 # or sometime I just use 
 zsh # this creates new zsh instance
 ```
-It is looking better but we can improve it by adding some color. Here is how you can add color to the prompt:
+It is looking better, but we can improve it by adding some color. Here is how you can add color to the prompt:
 ```bash
 PROMPT='%F{cyan}%n@%m %F{green}%~ %F{yellow}%#%f '
 # %F{color} - sets the foreground color
@@ -129,7 +129,7 @@ You can also add some text effects like bold, underline, and italic they follow 
 There is a lot more you can do with the prompt like adding git info, but this should get you started.
 
 #### **Set environment variables**
-Environment variable are variables that are available in each instance of the shell. There are some that are set by default like `PATH` and `HOME`. You can see these by running this command:
+Environment variables are variables that are available in each instance of the shell. There are some that are set by default like `PATH` and `HOME`. You can see these by running this command:
 ```bash
 env
 ```
@@ -182,4 +182,4 @@ source ~/.aliases
 ```
 
 ### **Conclusion**
-Customizing the `zsh` shell can be fun and there is so much more you can do. I recommend poking around and see what you can do.
+Customizing the `zsh` shell can be fun and there is so much more you can do. I recommend poking around and seeing what you can do.
