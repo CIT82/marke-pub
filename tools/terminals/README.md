@@ -32,5 +32,6 @@ Check out this cheatsheet I found on GitHub:
 > kitty is not the only terminal that can display images. Ghostty, and Wezterm are two other terminals that can display images.
 
 ## Some Other Popular Terminals
+
 - [Alacritty](https://alacritty.org)
 - [Wezterm](https://wezfurlong.org/wezterm/index.html)
