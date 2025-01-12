@@ -28,8 +28,8 @@ Check out this cheatsheet I found on GitHub:
 
 - [kitty](https://sw.kovidgoyal.net/kitty/) is another terminal that I have used, it is available for Mac and Linux. It is a very fast terminal and has a lot of features and customization options. One feature to note is it's ability to display images in the terminal via the kitty's graphics protocol.
 
-    > [!NOTE]
-    > kitty is not the only terminal that can display images. Ghostty, and Wezterm are two other terminals that can display images.
+> [!NOTE]
+> kitty is not the only terminal that can display images. Ghostty, and Wezterm are two other terminals that can display images.
 
 ## Some Other Popular Terminals
 - [Alacritty](https://alacritty.org)
