@@ -51,7 +51,7 @@ You can create the `.zshrc` file several different ways I will cover a couple of
     vim ~/.zshrc
     ```
 
-    This is essentially does same as the previous example but just uses `vim` instead of `nano`.
+    This essentially does same as the previous example but just uses `vim` instead of `nano`.
 
 >[!NOTE]
 > If you have never used `vim` before, I would recommend using `nano` as it is easier to use.
