@@ -128,6 +128,7 @@ PROMPT='%n@%m %~ %# '
 # any spaces or returns between the prompt escape sequences are displayed as is
 # so it is possible to have multiple lines in the prompt
 ```
+
 After saving the file, your current terminal session prompt will not change. You will need to either open a new terminal session or run the following command to apply the changes:
 
 ```bash
