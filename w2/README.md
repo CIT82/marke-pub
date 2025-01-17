@@ -6,7 +6,7 @@
 
 - [x] Create `w2/` in public repo
 - [x] Create `README.md` in `w2/`
-- [ ] Code up **'My Day'** in `README.md`
+- [x] Code up **'My Day'** in `README.md`
 
 #### **Markdown Resources**
 
@@ -42,21 +42,21 @@
             ```
 
 - [x] Create doubleInt project in CLion
-    1. - [ ] Code doubleInt.cpp
-    2. - [ ] Compile and run doubleInt.cpp
-    3. - [ ] Commit doubleInt project
+    1. - [x] Code doubleInt.cpp
+    2. - [x] Compile and run doubleInt.cpp
+    3. - [x] Commit doubleInt project
 - [x] Create tripleInt project in CLion
-    1. - [ ] Code tripleInt.cpp
-    2. - [ ] Compile and run tripleInt.cpp
-    3. - [ ] Commit tripleInt project
+    1. - [x] Code tripleInt.cpp
+    2. - [x] Compile and run tripleInt.cpp
+    3. - [x] Commit tripleInt project
 - [x] Create sumTwoInts project in CLion
-    1. - [ ] Code sumTwoInts.cpp
-    2. - [ ] Compile and run sumTwoInts.cpp
-    3. - [ ] Commit sumTwoInts project
+    1. - [x] Code sumTwoInts.cpp
+    2. - [x] Compile and run sumTwoInts.cpp
+    3. - [x] Commit sumTwoInts project
 - [x] Create simpleGreeting project in CLion
-    1. - [ ] Code simpleGreeting.cpp
-    2. - [ ] Compile and run simpleGreeting.cpp
-    3. - [ ] Commit simpleGreeting project
+    1. - [x] Code simpleGreeting.cpp
+    2. - [x] Compile and run simpleGreeting.cpp
+    3. - [x] Commit simpleGreeting project
 
 #### **C++ Resources**
 
