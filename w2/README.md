@@ -73,5 +73,6 @@
 ---
 > [!TIP]
 > Remember to drink plenty of H<sub>2</sub>O :smiley:
+
 > [!NOTE]
 > I just learned you can start any of your codespaces with a `VS Code` [extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces).
