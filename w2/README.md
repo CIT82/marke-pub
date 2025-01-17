@@ -32,19 +32,14 @@
     2. - [x] Compile and run helloWorld.cpp
     3. - [x] Commit hellWorld project
 
-  <details open>
-  <summary>helloWorld.cpp</summary>
+            ```cpp
+            #include <iostream>
 
-  ```cpp
-  #include <iostream>
-
-  int main() {
-      std::cout << "Hello, World!" << std::endl;
-      return 0;
-  }
-  ```
-
-  </details>
+            int main() {
+                std::cout << "Hello, World!" << std::endl;
+                return 0;
+            }
+            ```
 
 - [x] Create doubleInt project in CLion
     1. - [ ] Code doubleInt.cpp
