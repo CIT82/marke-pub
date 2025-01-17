@@ -1,3 +1,7 @@
+---
+---
+
+@import "{{ site.theme }}";
 /* Custom styles to handle [!NOTE] and [!TIP]*/
 
 .note {
@@ -11,5 +15,12 @@
     border-left: 4px solid #00a300; /* Customize with your preferred color */
     padding: 10px;
     background-color: #f3fff7;
+    margin: 10px 0;
+}
+
+blockquote {
+    border-left: 4px solid #00a300; /* Customize with your preferred color */
+    padding: 10px;
+    background-color: #f3f3f3;
     margin: 10px 0;
 }
