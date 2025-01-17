@@ -1,3 +1,8 @@
+# build settings
+title: [Mark's CIT 82 Public Site]
+description: [This is my public site for CIT 82. A place to share my work and thoughts about web development and technology.]
+show_downloads: [true]
+
 # configuration file for Jekyll theme
 
 # themes
