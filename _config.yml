@@ -4,15 +4,31 @@
 
 # Cayman
 remote_theme: pages-themes/cayman@v0.2.0
+include:
+- styles.css
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
+
 # Tactile
 # remote_theme: pages-themes/tactile@v0.2.0
+# include:
+# - styles.css
 # plugins:
 # - jekyll-remote-theme # add this line to the plugins list if you already have one
 
+
 # Midnight
 # remote_theme: pages-themes/midnight@v0.2.0
+# include:
+# - styles.css
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+# Slate
+# remote_theme: pages-themes/slate@v0.2.0
+# include:
+# - styles.css
 # plugins:
 # - jekyll-remote-theme # add this line to the plugins list if you already have one
