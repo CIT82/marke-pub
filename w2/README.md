@@ -23,14 +23,14 @@
 
   [![Python list comprehension lecture](https://www.7wdata.be/wp-content/uploads/2020/06/0ztHh-vVXJSU9BSM3-1024x640.png)](https://go.screenpal.com/player/cTVjrqneBC2)
 
----  
+---
 
 ### CIT 66
 
 - [X] Create helloWorld project in CLion
-  1. [X] Code helloWorld.cpp
-  2. [x] Compile and run helloWorld.cpp
-  3. [x] Commit hellWorld project
+    1. - [X] Code helloWorld.cpp
+    2. - [x] Compile and run helloWorld.cpp
+    3. - [x] Commit hellWorld project
 
   <details open>
   <summary>helloWorld.cpp</summary>
@@ -46,26 +46,22 @@
 
   </details>
 
-  
-
-
-
 - [x] Create doubleInt project in CLion
-  1. [ ] Code doubleInt.cpp
-  2. [ ] Compile and run doubleInt.cpp
-  3. [ ] Commit doubleInt project
+    1. - [ ] Code doubleInt.cpp
+    2. - [ ] Compile and run doubleInt.cpp
+    3. - [ ] Commit doubleInt project
 - [x] Create tripleInt project in CLion
-  1. [ ] Code tripleInt.cpp
-  2. [ ] Compile and run tripleInt.cpp
-  3. [ ] Commit tripleInt project
+    1. - [ ] Code tripleInt.cpp
+    2. - [ ] Compile and run tripleInt.cpp
+    3. - [ ] Commit tripleInt project
 - [x] Create sumTwoInts project in CLion
-  1. [ ] Code sumTwoInts.cpp
-  2. [ ] Compile and run sumTwoInts.cpp
-  3. [ ] Commit sumTwoInts project
+    1. - [ ] Code sumTwoInts.cpp
+    2. - [ ] Compile and run sumTwoInts.cpp
+    3. - [ ] Commit sumTwoInts project
 - [x] Create simpleGreeting project in CLion
-  1. [ ] Code simpleGreeting.cpp
-  2. [ ] Compile and run simpleGreeting.cpp
-  3. [ ] Commit simpleGreeting project
+    1. - [ ] Code simpleGreeting.cpp
+    2. - [ ] Compile and run simpleGreeting.cpp
+    3. - [ ] Commit simpleGreeting project
 
 #### **C++ Resources**
 
@@ -77,3 +73,5 @@
 ---
 > [!TIP]
 > Remember to drink plenty of H<sub>2</sub>O :smiley:
+> [!NOTE]
+> I just learned you can start any of your codespaces with a `VS Code` [extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces).
