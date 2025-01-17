@@ -1,0 +1,15 @@
+/* Custom styles to handle [!NOTE] and [!TIP]*/
+
+.note {
+    border-left: 4px solid #0078d4; /* Customize with your preferred color */
+    padding: 10px;
+    background-color: #f3f9ff;
+    margin: 10px 0;
+}
+
+.tip {
+    border-left: 4px solid #00a300; /* Customize with your preferred color */
+    padding: 10px;
+    background-color: #f3fff7;
+    margin: 10px 0;
+}
