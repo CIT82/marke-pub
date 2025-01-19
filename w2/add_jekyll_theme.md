@@ -6,13 +6,13 @@ Jekyll is a static site generator that is used by GitHub Pages.
 
 ## How to Add a Jekyll Theme to Your GitHub Pages Site
 
-Fully configuring and customizing a Jekyll looks like it can get pretty involved. However, adding a Jekyll theme to your GitHub Pages site is pretty simple. Here is how you can do it:
+Fully configuring and customizing a Jekyll site looks like it can get pretty involved. However, adding a Jekyll theme to your GitHub Pages site is pretty simple. Here is how you can do it:
 
 1. Create a `_config.yml` file in the root of your repository.
 2. Choose a GitHub Pages supported theme from the [GitHub Pages](https://pages.github.com/themes/) page.
 3. In each of the theme's repository under the 'Usage' section, copy and paste the first code snippet into your `_config.yml` file.
-4. Commit the changes to your repository, and if you are local push to the remote.
-5. Your site should now be using the theme you selected.
+4. Commit the changes, and push to the remote repository.
+5. Your site should redeploy with the new theme you selected (this could take some time).
 
 ## Theme Previews and Configurations
 
@@ -27,7 +27,7 @@ For convenience, here are some of the themes available on GitHub Pages and links
 ```yaml
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Cayman
@@ -39,7 +39,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Dinky
@@ -51,7 +51,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Hacker
@@ -63,7 +63,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Leap Day
@@ -75,31 +75,40 @@ plugins:
 ```yaml
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Merlot
 
 [Merlot Preview](https://pages-themes.github.io/merlot/)
+
 #### Use Merlot
 
 ```yaml
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Midnight
 
 [Midnight Preview](https://pages-themes.github.io/midnight/)
+
 #### Use Midnight
 
 ```yaml
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
+### Minima
+
+```yaml
+theme: minima
+plugins:
+  - jekyll-feed
+```
 
 ### Minimal
 
@@ -110,7 +119,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Modernist
@@ -122,7 +131,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Slate
@@ -134,7 +143,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Tactile
@@ -146,7 +155,7 @@ plugins:
 ```yaml
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
 
 ### Time Machine
@@ -158,6 +167,5 @@ plugins:
 ```yaml
 remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 ```
-
