@@ -1,13 +1,13 @@
 ---
 ---
 
-// @import "{{ site.theme }}";
-// blockquote {
-//     border-left: 4px solid #00a300; /* Customize with your preferred color */
-//     padding: 10px;
-//     background-color: #f3f3f3;
-//     margin: 10px 0;
-// }
+@import "{{ site.theme }}";
+blockquote {
+    border-left: 4px solid #00a300; /* Customize with your preferred color */
+    padding: 10px;
+    background-color: #f3f3f3;
+    margin: 10px 0;
+}
 
 details summary{
     color:coral;
