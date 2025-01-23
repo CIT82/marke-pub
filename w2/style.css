@@ -17,7 +17,7 @@ details summary{
 .page-header{
     background: rgb(21,95,145);
     background: linear-gradient(90deg, rgba(21,95,145,1) 0%, rgba(23,109,132,1) 35%, rgba(20,153,47,1) 100%);
-    height: 100px;
+    height: auto;
     width: auto;
     text-align: center;
     color: seashell;
@@ -104,3 +104,4 @@ details summary{
 .main-content .important strong{
     color: #8957E5;
 }
+
