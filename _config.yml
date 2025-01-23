@@ -1,16 +1,16 @@
-# build settings
-title: [Mark's CIT 82 Public Site]
-description: [This is my public site for CIT 82. A place to share my work and thoughts about web development and technology.]
-show_downloads: [true]
-
 # configuration file for Jekyll theme
+
+# build settings
+title: Mark's CIT 82 Public Site
+description: My public site for CIT 82 Introduction to Web Development Spring 2025
+show_downloads: true
 
 # themes
 
 # Cayman
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
 
 
 # Tactile
