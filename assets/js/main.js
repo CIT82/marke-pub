@@ -13,7 +13,7 @@ const blockquoteCharDict = {
     note: "\u{1F4D6}",
     tip: "\u{1F4A1}",
     warning: "\u{26A0}",
-    important: "\u{2757}",
+    important: "\u{E654}",
     caution: "\u{1F6D1}",
     info: "\u{2139}"
 }
@@ -39,37 +39,37 @@ function setInnerText(item, text){
         case "note":
             item.innerHTML = item.innerHTML.replace(
                 "[!NOTE]",
-                `<strong>${blockquoteCharDict["note"]} NOTE</strong>:<br>`,
+                `<strong><i class="nf nf-md-book_edit"></i> NOTE</strong>:<br>`,
               );
             break;
         case "tip":
             item.innerHTML = item.innerHTML.replace(
                 "[!TIP]",
-                `<strong>${blockquoteCharDict["tip"]}TIP</strong>:<br>`,
+                `<strong><i class="nf nf-fa-lightbulb"></i> TIP</strong>:<br>`,
               );
             break;
         case "warning":
             item.innerHTML = item.innerHTML.replace(
                 "[!WARNING]",
-                `<strong>${blockquoteCharDict["warning"]}WARNING</strong>:<br>`,
+                `<strong><i class="nf nf-fa-warning"></i> WARNING</strong>:<br>`,
               );
             break;
         case "important":
             item.innerHTML = item.innerHTML.replace(
                 "[!IMPORTANT]",
-                `<strong>${blockquoteCharDict["important"]}IMPORTANT</strong>:<br>`,
+                `<strong><i class="nf nf-md-exclamation"></i> IMPORTANT</strong>:<br>`,
               );
             break;
         case "caution":
             item.innerHTML = item.innerHTML.replace(
                 "[!CAUTION]",
-                `<strong>${blockquoteCharDict["caution"]}CAUTION</strong>:<br>`,
+                `<strong><i class="nf nf-oct-stop"></i> CAUTION</strong>:<br>`,
               );
             break;
         case "info":
             item.innerHTML = item.innerHTML.replace(
                 "[!INFO]",
-                `<strong>${blockquoteCharDict["info"]}INFO</strong>:<br>`,
+                `<strong><i class="nf nf-cod-info"></i> INFO</strong>:<br>`,
               );
             break;
         default:    

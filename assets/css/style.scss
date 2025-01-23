@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 blockquote {
 	border-left: 4px solid #00a300;
 	padding: 10px;
@@ -18,44 +19,73 @@ details summary {
 	background-color: #f3f3f3;
 }
 
-.main-content .note {
-	background-color: #f9f9f9;
-	border-left: 10px solid #156290;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.main-content .note{
+    background-color: #f9f9f9;
+    border-left: 10px solid #1F6FEA;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    
 }
 
-.main-content .tip {
-	background-color: #f9f9f9;
-	border-left: 10px solid #f9f915;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.note strong{
+    color: #1F6FEA;
 }
 
-.main-content.warning {
-	background-color: #f9f9f9;
-	border-left: 10px solid #f91515;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.main-content .tip{
+    background-color: #f9f9f9;
+    border-left: 10px solid #239A36;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
 }
 
-.main-content .info {
-	background-color: #f9f9f9;
-	border-left: 10px solid #0c8e0f;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.main-content .tip strong{
+    color: #239A36;
 }
 
-.main-content .caution {
-	background-color: #f9f9f9;
-	border-left: 10px solid #d0920c;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.main-content .warning{
+    background-color: #f9f9f9;
+    border-left: 10px solid #FDC30F;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
 }
 
-.main-content .important {
-	background-color: #f9f9f9;
-	border-left: 10px solid #f91515;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+.main-content .warning strong{
+    color: #FDC30F;
+}
+
+.main-content .info{
+    background-color: #f9f9f9;
+    border-left: 10px solid #1F6FEA;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.main-content .info strong{
+    color: #1F6FEA;
+}
+
+.main-content .caution{
+    background-color: #f9f9f9;
+    border-left: 10px solid #DA3633;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.main-content .caution strong{
+    color: #DA3633;
+}
+
+.main-content .important{
+    background-color: #f9f9f9;
+    border-left: 10px solid #8957E5;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.main-content .important strong{
+    color: #8957E5;
+}
+
+#w2-page-header {
+    align-content: center;
 }

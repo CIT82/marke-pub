@@ -1,3 +1,5 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 details summary{
     color:coral;
 }
@@ -17,9 +19,12 @@ details summary{
     background: linear-gradient(90deg, rgba(21,95,145,1) 0%, rgba(23,109,132,1) 35%, rgba(20,153,47,1) 100%);
     height: 100px;
     width: auto;
-    align-content: center;
     text-align: center;
     color: seashell;
+}
+
+#w2-page-header {
+    align-content: center;
 }
 
 .main-content h2, h3{
@@ -35,42 +40,67 @@ details summary{
 
 .main-content .note{
     background-color: #f9f9f9;
-    border-left: 10px solid #156290;
+    border-left: 10px solid #1F6FEA;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+    
+}
+
+.note strong{
+    color: #1F6FEA;
 }
 
 .main-content .tip{
     background-color: #f9f9f9;
-    border-left: 10px solid #f9f915;
+    border-left: 10px solid #239A36;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
 }
 
-.main-content.warning{
+.main-content .tip strong{
+    color: #239A36;
+}
+
+.main-content .warning{
     background-color: #f9f9f9;
-    border-left: 10px solid #f91515;
+    border-left: 10px solid #FDC30F;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+}
+
+.main-content .warning strong{
+    color: #FDC30F;
 }
 
 .main-content .info{
     background-color: #f9f9f9;
-    border-left: 10px solid #15f9f9;
+    border-left: 10px solid #1F6FEA;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+}
+
+.main-content .info strong{
+    color: #1F6FEA;
 }
 
 .main-content .caution{
     background-color: #f9f9f9;
-    border-left: 10px solid #f9f915;
+    border-left: 10px solid #DA3633;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
 }
 
+.main-content .caution strong{
+    color: #DA3633;
+}
+
 .main-content .important{
     background-color: #f9f9f9;
-    border-left: 10px solid #f91515;
+    border-left: 10px solid #8957E5;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+}
+
+.main-content .important strong{
+    color: #8957E5;
 }
