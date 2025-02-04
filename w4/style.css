@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(92, 113, 134);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+section {
+    padding: 10px 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+
+}
+
+textarea {
+    display: block;
+    font-family: sans-serif;
+    color: azure;
+    background-color: grey;
+}
+
+kbd {
+    padding: 2px 5px;
+    font-size: 11px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+#red {
+    color: red;
+}
+
