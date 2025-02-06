@@ -60,6 +60,8 @@ details ul{
     background-color: rgb(20, 121, 184);
 }
 
+
+
 #header-nav ul{
     list-style: none;
     background-color: transparent;
@@ -81,6 +83,6 @@ details ul{
     list-style-type: upper-roman;
 }
 
-#social-nav {
+.social {
     padding: 5px 10px 0 0;
 }
