@@ -16,6 +16,7 @@ main {
     margin: 15px 0;
     padding: 15px;
     background-color: rgb(211, 221, 222);
+    color: #333232;
     border-radius: 15px;
 }
 
@@ -48,6 +49,7 @@ label {
 
  ul, ol {
     background-color: rgb(231, 238, 240);
+    color: #333232;
     list-style-position: inside;
     border-radius: 10px;
     padding: 10px 0;
@@ -56,6 +58,18 @@ label {
 details ul{
     list-style: none;
     background-color: rgb(20, 121, 184);
+}
+
+#header-nav ul{
+    list-style: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding: 0 10px 0 0;
 }
 
 #fruits {
