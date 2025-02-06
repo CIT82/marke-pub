@@ -80,3 +80,7 @@ details ul{
 #sandwich {
     list-style-type: upper-roman;
 }
+
+#social-nav {
+    padding: 5px 10px 0 0;
+}
