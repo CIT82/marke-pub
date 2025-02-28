@@ -2636,3 +2636,7 @@ body {
     display: none;
   }
 }
+.sitemap {
+  padding: 10px;
+  list-style: outside;
+}
