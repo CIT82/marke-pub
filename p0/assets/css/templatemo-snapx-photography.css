@@ -931,7 +931,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/main-banner-bg\ -\ 1.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1488,6 +1488,13 @@ page heading
   background-color: #2a2a2a;
 }
 
+#may-lake{
+  background-image: url(../images/may-lake/may-lake-pano.jpeg);
+}
+
+#mt-dana{
+  background-image: url(../images/dana/mt-dana-bg.jpeg);
+}
 .page-heading h2 {
   color: #fff;
   font-size: 64px;
