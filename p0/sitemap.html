@@ -35,6 +35,34 @@
     <link rel="manifest" href="assets/images/favicon/android-chrome-192x192.png">
     <link rel="manifest" href="assets/images/favicon/android-chrome-512x512.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!-- Style -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .content-wrapper {
+            padding: 20px;
+            margin-top: 100px; /* This pushes content below sticky header */
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        li::before {
+            content: "📂 ";
+        }
+        li li::before {
+            content: "📄 ";
+        }
+    </style>
     
       </head>
 <body>
