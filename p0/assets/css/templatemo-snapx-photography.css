@@ -1488,6 +1488,12 @@ page heading
   background-color: #2a2a2a;
 }
 
+/*
+---------------------------------------------
+hikes headings
+---------------------------------------------
+*/
+
 #may-lake{
   background-image: url(../images/may-lake/may-lake-pano.jpeg);
 }
@@ -1495,6 +1501,39 @@ page heading
 #mt-dana{
   background-image: url(../images/dana/mt-dana-bg.jpeg);
 }
+
+#pothole-dome{
+  background-image: url(../images/pothole-dome/pothole-dome-bg.jpeg);
+}
+
+#cathedral{
+  background-image: url(../images/cathedral/cathedral-bg.jpeg);
+}
+
+#angels{
+  background-image: url(../images/angels/angels-bg.jpeg);
+}
+
+#narrows{
+  background-image: url(../images/narrows/narrows-bg.jpeg);
+}
+
+#inspiration{
+  background-image: url(../images/inspiration/inspiration-bg.jpeg);
+}
+
+#moose{
+  background-image: url(../images/moose/moose-bg.jpeg);
+}
+
+#loch{
+  background-image: url(../images/loch/loch-bg.jpeg);
+}
+
+#sky-pond{
+  background-image: url(../images/sky-pond/sky-pond-bg.jpeg);
+}
+
 .page-heading h2 {
   color: #fff;
   font-size: 64px;
