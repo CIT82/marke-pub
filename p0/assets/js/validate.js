@@ -11,7 +11,7 @@ FORM.addEventListener('submit', (e) => {
   const MESSAGE = document.getElementById('message').value;
   const ERROR = document.getElementById('error');
 
-  if (EMAIL.value.contains('@') === false) {
+  if (!EMAIL.includes('@')) {
     ERROR.innerHTML = 'Please enter a valid email address';
     ERROR.style.display = 'block';
     return;
