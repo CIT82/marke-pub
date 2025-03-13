@@ -931,7 +931,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/main-banner-bg\ -\ 1.jpeg);
+  background-image: url(../images/main-banner-bg.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1502,20 +1502,12 @@ hikes headings
   background-image: url(../images/dana/mt-dana-bg.jpeg);
 }
 
-#pothole-dome{
-  background-image: url(../images/pothole-dome/pothole-dome-bg.jpeg);
-}
-
-#cathedral{
-  background-image: url(../images/cathedral/cathedral-bg.jpeg);
-}
-
 #angels{
   background-image: url(../images/angels/angels-bg.jpeg);
 }
 
 #narrows{
-  background-image: url(../images/narrows/narrows-bg.jpeg);
+  background-image: url(../images/angels/angels-bg.jpeg);
 }
 
 #inspiration{
@@ -1533,7 +1525,33 @@ hikes headings
 #sky-pond{
   background-image: url(../images/sky-pond/sky-pond-bg.jpeg);
 }
-
+#highline{
+  background-image: url(../images/highline/highline-bg.jpeg);
+}
+#glacier{
+  background-image: url(../images/highline/highline-bg.jpeg);
+}
+#zion{
+  background-image: url(../images/angels/angels-bg.jpeg);
+}
+#yosemite{
+  background-image: url(../images/yosemite/yosemite-bg.jpeg);
+}
+#teton{
+  background-image: url(../images/teton/teton-bg.jpeg);
+}
+#rocky{
+  background-image: url(../images/rocky-mtn-bg.jpeg);
+}
+#pothole{
+  background-image: url(../images/pothole/pothole-bg.jpeg);
+}
+#cathedral{
+  background-image: url(../images/cathedral/cathedral-bg.jpeg);
+}
+#gaylor{
+  background-image: url(../images/main-banner-bg.jpeg);
+}
 .page-heading h2 {
   color: #fff;
   font-size: 64px;
